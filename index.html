@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Interactive Web Page</h1>
+  </header>
+
+  <!-- Form Section -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter username"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter email"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password"><br><br>
+
+      <button type="submit">Register</button>
+      <p id="formMessage" class="error"></p>
+    </form>
+  </section>
+
+  <!-- Interactive Section 1 -->
+  <section>
+    <h2>Show/Hide Password</h2>
+    <button id="togglePassword">Toggle Password Visibility</button>
+  </section>
+
+  <!-- Interactive Section 2 -->
+  <section>
+    <h2>Change Background Color</h2>
+    <button id="changeColor">Change Background</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
